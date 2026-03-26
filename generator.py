@@ -1,8 +1,10 @@
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
-
 def generate_slides(topic: str, max_slides: int, max_words: int) -> str:
     """
     Generate slides with optional small images for a given topic using Gemini API.
