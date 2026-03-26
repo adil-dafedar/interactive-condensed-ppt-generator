@@ -3,5 +3,5 @@ uvicorn
 python-multipart
 jinja2
 python-dotenv
-google-generative-ai
+google
 requests
