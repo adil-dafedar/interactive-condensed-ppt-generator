@@ -1,10 +1,7 @@
-from google import genai
 import os
-from dotenv import load_dotenv
+import google.generativeai as genai
 
-load_dotenv()
-
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 
 def generate_slides(topic: str, max_slides: int, max_words: int) -> str:
     """
