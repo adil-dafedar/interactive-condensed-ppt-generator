@@ -1,0 +1,93 @@
+/* Body themes */
+body.bright {
+    background: #fefefe;
+    color: #0077cc;
+}
+body.dark {
+    background: #1a1a1a;
+    color: #e0e0e0;
+}
+
+/* Slide container */
+.slide {
+    display: none;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    transition: opacity 0.5s;
+}
+.slide.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Slide title */
+.title {
+    font-size: 4vw; /* roughly 50% of vertical screen height */
+    margin-bottom: 20px;
+}
+
+/* Slide number circle */
+.slide-number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0077cc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Slide image */
+.slide-img {
+    max-width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation buttons */
+button.nav-btn {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 10;
+}
+#prev { left: 20px; }
+#next { right: 20px; }
+
+/* Download & theme toggle buttons */
+#downloadBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#themeToggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
