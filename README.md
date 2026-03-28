@@ -1,4 +1,5 @@
 # 🎨 Interactive Condensed PPT Generator
+rizzppts.up.railway.app
 
 An AI-powered tool that helps users create **concise, relevant slides** in seconds — without spending hours manually designing presentations.  
 
