@@ -1,79 +1,72 @@
 # 🎨 AI-Powered Content Structuring Tool
 👉 [RizzPPTs App](https://rizzppts.up.railway.app)
 
-An AI-powered tool that helps users create **concise, relevant slides** in seconds — without spending hours manually designing presentations.  
+An AI system that converts long-form content into **concise, structured, slide-ready learning blocks** in seconds.
+
+---
 
 ## 🚨 Problem
 
-Creating presentations is often slow and overwhelming:  
+Creating structured learning content is slow and inefficient:
 
-❌ Slides are **text-heavy**, making them hard to follow  
-❌ People have **limited attention span and memory**, remembering less when slides are crowded  
-❌ Manual slide creation is **time-consuming**, especially for long content  
+- ❌ Information-heavy slides reduce clarity  
+- ❌ Long content leads to cognitive overload  
+- ❌ Manual structuring takes significant time  
 
-As a result, outputs are often **dense, boring, or take hours to prepare**.  
+Result: low retention and poorly structured learning material.
 
-## 🎯 Users
-
-- Students preparing lectures or assignments  
-- Professionals creating reports and presentations  
-- Non-designers who want **effective slides quickly**  
+---
 
 ## 💡 Solution
 
-This project enables users to:  
+Paste content → get **clean, structured learning slides instantly**:
 
-- Paste or type content  
-- Automatically generate **concise slides** (one idea per slide)  
-- Optionally add **AI-generated images**  
-- Download slides as **PDF**  
-- Navigate easily with **keyboard shortcuts**  
+- 🧠 One idea per slide  
+- 🎨 Optional AI-generated visuals  
+- 📥 Export as PDF  
+- ⌨️ Keyboard navigation for fast review  
 
-No manual formatting. No cluttered structure. Minimal time and cognitive load.  
+Goal: reduce cognitive load and improve understanding.
+
+---
 
 ## ✨ Key Features
 
-🎨 AI-generated slides with **relevant, concise content**  
-🖼️ Optional images per slide  
-🌗 Dark/light theme  
-📥 Export slides as **PDF**  
-⌨️ Keyboard navigation for faster workflow  
-⚡ ChatGPT-style interactive UI  
+- 🧠 AI-based content structuring  
+- 🎨 Optional image generation per slide  
+- 🌗 Light/Dark UI  
+- 📥 PDF export  
+- ⚡ Fast, interactive navigation  
 
-## 🧪 MVP / Prototype Development
+---
 
-This project was built to validate:  
+## 🧪 Core Idea (MVP)
 
-> Can users automatically transform long content into structured, easy-to-understand learning blocks, reducing cognitive overload?  
+Validate a simple question:
 
-**Approach:**  
+> Can AI convert dense content into structured, easy-to-learn formats effectively?
 
-- Backend-first prototype using **FastAPI**  
-- Frontend with **HTML/CSS**, lightweight and responsive  
-- **Gemini API** for AI-powered slide generation  
-- Focused on **speed of iteration** and **user-centered clarity**  
-
-**Trade-offs:**  
-
-❌ No persistent storage yet  
-❌ Limited image customization (future improvement)  
-❌ Basic styling for fast MVP delivery  
+---
 
 ## 🏗️ Tech Stack
 
-- **Backend:** FastAPI  
-- **Frontend:** HTML/CSS  
-- **AI:** Gemini API  
+- FastAPI (Backend)  
+- HTML/CSS (Frontend)  
+- Gemini API (AI Generation)  
+
+---
 
 ## ⚙️ How It Works
 
-1. User inputs content  
-2. AI analyzes text → generates **concise slides, one idea per slide**  
-3. Optional AI images added  
-4. Slides displayed in **interactive UI**  
-5. Download PDF or navigate with keyboard  
+1. User inputs raw content  
+2. AI breaks it into structured points  
+3. Each point becomes a slide  
+4. UI renders interactive learning flow  
+5. User exports as PDF  
 
-## 🚀 Running Locally
+---
+
+## 🚀 Run Locally
 
 ```bash
 git clone <repo-url>
